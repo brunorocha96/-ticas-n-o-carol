@@ -10,21 +10,54 @@ body{
     font-family:sans-serif;
 }
 
-header .barra_superior{
-    border-botton:1px solid #CCCCCC;
-    color:#BBBBBB;
+.barra_superior{
+    border-bottom:1px solid #CCCCCC;
+    color:#474747;
     padding-top:10px;
     padding-bottom:10px;
     font-size:14px;
 }
 
-header .barra_superior .container{
+.barra_superior .container{
     max-width:960px;
     width:100%;
     margin:0 auto;
 }
 
-header .barra_superior .container ul li{
+.barra_superior .container ul li{
     padding:2px;
     display:inline-block;
 }
+
+nav{
+    color:#474747;
+    font-size:16px;
+    float:right;
+    margin-top:50px;
+}
+
+.container .logo{
+    width:10%;
+    padding-left:10px;
+}
+
+nav a{
+    color:#474747;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+nav a .btn_destaque{
+    margin-left:20px;
+}
+
+.btn_destaque{
+    background-color:#FF4D4D;
+    color:#FFFFFF;
+    padding:12px 20px;
+    border-radius:3px;
+    font-size:16px;
+    text-decoration:none;
+}
+
+
